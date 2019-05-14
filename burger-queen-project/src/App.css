@@ -3,9 +3,19 @@
   padding: 0;
 }
 
-body {
+footer {
+  background-color: #363432;
+  height: 10%;
+}
+
+.backgroundPosition {
+  background-color: #fff;
+}
+
+.backgroundHome {
   background-color: #241e20;
 }
+
 
 .logo {
   height: 30%;
@@ -18,17 +28,82 @@ body {
 .start {
   height: 30px;
   width: 70px;
-  background-color: #F09F23;
+  background-color: #f7921c;
   font-size: medium;
   color: #241e20;
   font-weight: bold;
-  border-color: #F09F23;
+  border-color: #f7921c;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  box-shadow: #F09F23;
+  box-shadow: #f7921c;
   margin-left: 45%;
+
+}
+
+.btnPosition {
+  background-color: #fff;
+  border: none;
+  color: #6a6868;
+  font-family: "Fredoka One", cursive;
+  display: block;
+  margin-top: 10%;
+  margin-left: 45%;
+}
+
+.backgroundBreakfast {
+  background-color: #bf1e2e;
+}
+
+.backgroundDinner {
+  background-color: #f7921c;
+}
+
+.backgroundDrinks {
+  background-color: #fff;
+}
+
+.btnMenu {
+  border: none;
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  font-size: 9px;
+  height: 45px;
+  width: 100px;
+  margin: 5%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btnBreakfast{
+  background-color: #ec4453;
+}
+
+.btnDinner {
+  background-color:#ffa72b;
+}
+
+.btnDrinks {
+  background-color:#6a6868;
+}
+
+.titleBkf {
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  margin-left: 5%;
+}
+
+.titleDrinks {
+  color: #241e20;
+  font-family: "Fredoka One", cursive;
+  margin-left: 5%;
+}
+
+.logoCashier {
 
 }
