@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LuceroDn/GDL002-burger-queen/issues"
   },
-  "homepage": "https://github.com/LuceroDn/GDL002-burger-queen#readme"
+  "homepage": "https://github.com/LuceroDn/GDL002-burger-queen#readme",
+  "dependencies": {
+    "react-router-dom": "^5.0.0"
+  }
 }

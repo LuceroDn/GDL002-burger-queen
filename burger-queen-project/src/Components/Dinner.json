@@ -1,0 +1,24 @@
+{
+    "Dinner": [
+        {
+            "title": "Hamburguesa simple",
+            "price": "$10.00",
+            "valor": 10
+        },
+        {
+            "title": "Hamburguesa doble",
+            "price": "$15.00",
+            "valor": 15
+        },
+        {
+            "title": "Papas fritas",
+            "price": "$5.00",
+            "valor": 5
+        },
+        {
+            "title": "Aros de cebolla",
+            "price": "$5.00",
+            "valor": 5
+        }
+    ]
+}

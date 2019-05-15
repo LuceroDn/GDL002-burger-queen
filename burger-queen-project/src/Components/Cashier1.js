@@ -1,35 +1,41 @@
 import React, { Component } from "react";
-import logoCashier from "../img/logo.png"
+//import logoCashier from "../img/logo.png"
+import MenuBreakfast from "./BreakfastMenu";
+import MenuDinner from "./DinnerMenu";
+import MenuDrinks from "./DrinksMenu";
+import OrderCard from "./OrderCard"
+
 
 class Cashier1 extends Component {
 
     render() {
       return (
-     <div className="backgroundHome">
-        <div className="backgroundBreakfast col-sm-6">
-            <h2 className="titleBkf">Desayuno</h2>
-                <button className="btnBreakfast btnMenu">Sandwich de jamón y queso</button>
-                <button className="btnBreakfast btnMenu">Jugo de frutas natural</button> 
-                <button className="btnBreakfast btnMenu">Café americano</button>
-                <button className="btnBreakfast btnMenu">Café con leche</button>
+     <div className="backgroundHome row-sm-12">
+      <div className="Menu col-sm-6">
+        <div className="backgroundBreakfast">
+            <p className="titleBkf">D e s a y u n o</p>
+                <MenuBreakfast />
         </div>
-        <div className="backgroundDinner col-sm-6">
-            <h2 className="titleBkf">Comida</h2>
-                <button className="btnDinner btnMenu">Hamburguesa simple</button>
-                <button className="btnDinner btnMenu">Hamburguesa doble</button> 
-                <button className="btnDinner btnMenu">Papas fritas</button>
-                <button className="btnDinner btnMenu">Aros de cebolla</button>
+        <div className="backgroundDinner">
+            <p className="titleBkf">C o m i d a</p>
+               <MenuDinner />
         </div>
-        <div className="backgroundDrinks col-sm-6">
-            <h2 className="titleDrinks">Bebidas</h2>
-                <button className="btnDrinks btnMenu">Agua 500ml</button>
-                <button className="btnDrinks btnMenu">Agua 750ml</button> 
-                <button className="btnDrinks btnMenu">Gaseosa 500ml</button>
-                <button className="btnDrinks btnMenu">Gaseosa 500ml</button>
+        <div className="backgroundDrinks">
+            <h2 className="titleDrinks">B e b i d a s</h2>
+               <MenuDrinks />
         </div>
         <div>
-        <img className="logoCashier" src={logoCashier} alt="logoBQ"/>
+
         </div>
+      </div>
+      <div className="Order col-sm-6">
+        <div>
+      {OrderCard}
+        </div>
+        <div>
+          
+        </div>
+      </div>
      </div>
       );
     }
