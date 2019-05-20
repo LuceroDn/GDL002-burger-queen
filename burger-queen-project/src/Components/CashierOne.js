@@ -10,7 +10,7 @@ class CashierOne extends Component {
 
     render() {
       return (
-     <div className="backgroundHome row-sm-12">
+     <div className="backgroundMenuOrder row-sm-12">
       <div className="Menu col-sm-6">
         <div className="backgroundBreakfast">
             <p className="titleBkf">D e s a y u n o</p>

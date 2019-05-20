@@ -14,11 +14,17 @@ footer {
 
 .backgroundHome {
   background-color: #241e20;
+  height: 100vh;
+}
+
+.backgroundMenuOrder {
+  background-color: #241e20;
+  height: 129vh;
 }
 
 
 .logo {
-  height: 30%;
+  height: 55%;
   width: 30%;
   margin-top: 5%;
   margin-left: 35%;
@@ -44,13 +50,24 @@ footer {
 }
 
 .btnPosition {
-  background-color: #fff;
-  border: none;
-  color: #6a6868;
+  height: 10vh;
+  width: 15vw;
+  background-color: #6a6868 ;
+  border-bottom: none;
+  color: #fff;
   font-family: "Fredoka One", cursive;
   display: block;
-  margin-top: 10%;
-  margin-left: 45%;
+  margin-top: 8%;
+  margin-left: 42%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btnPosition :hover {
+  color: #bf1e2e;
 }
 
 
