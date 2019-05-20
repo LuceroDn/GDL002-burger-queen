@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-//import logoCashier from "../img/logo.png"
+import logoCashier from "../img/logo.png"
 import MenuBreakfast from "./BreakfastMenu";
-import MenuDinner from "./DinnerMenu";
+import MenuMeal from "./MealMenu";
 import MenuDrinks from "./DrinksMenu";
-import OrderCard from "./OrderCard"
+//import OrderCard from "./OrderCard"
 
 
-class Cashier1 extends Component {
+class CashierOne extends Component {
 
     render() {
       return (
@@ -16,29 +16,30 @@ class Cashier1 extends Component {
             <p className="titleBkf">D e s a y u n o</p>
                 <MenuBreakfast />
         </div>
-        <div className="backgroundDinner">
+        <div className="backgroundMeal">
             <p className="titleBkf">C o m i d a</p>
-               <MenuDinner />
+               <MenuMeal />
         </div>
         <div className="backgroundDrinks">
             <h2 className="titleDrinks">B e b i d a s</h2>
                <MenuDrinks />
         </div>
-        <div>
+      </div>
 
-        </div>
-      </div>
-      <div className="Order col-sm-6">
         <div>
-      {OrderCard}
+        <div class="card col-sm-6" className="orderBox">
+  <img src={logoCashier} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Orden #</h5>
+    <p class="card-text"></p>
+  </div>
+</div>
         </div>
-        <div>
-          
-        </div>
+
       </div>
-     </div>
+  
       );
     }
   }
 
-export default Cashier1;
+export default CashierOne;

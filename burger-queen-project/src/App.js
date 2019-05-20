@@ -3,7 +3,7 @@ import "./App.css";
 //import { Button } from 'reactstrap';
 import Home from "./Components/Home";
 import Position from "./Components/Position";
-import Cashier1 from "./Components/Cashier1"
+import CashierOne from "./Components/CashierOne"
   
 
  class App extends Component {
@@ -12,7 +12,7 @@ import Cashier1 from "./Components/Cashier1"
       <div>
         <Home />
         <Position />
-        <Cashier1 />
+        <CashierOne />
       </div>
       
     );

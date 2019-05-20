@@ -3,22 +3,22 @@
         {
             "title": "Agua 500ml",
             "price": "$5.00",
-            "valor": 5
+            "value": 5
         },
         {
             "title": "Agua 750ml",
             "price": "$5.00",
-            "valor": 5
+            "value": 5
         },
         {
             "title": "Gaseosa 500ml",
             "price": "$7.00",
-            "valor": 7
+            "value": 7
         },
         {
             "title": "Gaseosa 750ml",
             "price": "$10.00",
-            "valor": 10
+            "value": 10
         }
     ]
 }
