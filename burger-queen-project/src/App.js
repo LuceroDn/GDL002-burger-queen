@@ -3,7 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "./App.css";
 import Home from "./Components/Home";
 import Position from "./Components/Position";
-import CashierOne from "./Components/CashierOne"
+import CheckoutOne from "./Components/CheckoutOne"
+import CheckoutTwo from "./Components/CheckoutTwo";
   
 
  class App extends Component {
@@ -14,7 +15,8 @@ import CashierOne from "./Components/CashierOne"
               <Route exact path='/' component={Home} />
               <Route path='/Home' component={Home} />
               <Route path='/Position' component={Position} />
-              <Route path='/CashierOne' component={CashierOne} />
+              <Route path='/CheckoutOne' component={CheckoutOne} />
+              <Route path='/CheckoutTwo' component={CheckoutTwo} />
           </Switch>
       </BrowserRouter>
     );

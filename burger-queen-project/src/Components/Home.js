@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import logo from "../img/logo.png" 
+import {Link} from "react-router-dom";
+import logo from "../img/logo.png";
 
 
 class Home extends Component {
@@ -7,7 +8,7 @@ class Home extends Component {
       return (
         <div className="backgroundHome">
           <img className="logo" src={logo} alt="logoBQ"/>
-          <button type="button" className="start" onClick={this.onClick}>Inicio</button>
+      <Link to="/Position"><button type="button" className="start" onClick={this.onClick} >Inicio</button></Link>
      </div>
       );
     }

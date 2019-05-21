@@ -9,9 +9,9 @@ class MenuBreakfast extends Component {
         }
     }
 
-    // let newObject= this.status.breakfast;
+    //let newObject= this.status.breakfast;
 
-    // localStorage.setItem('orders', JSON.stringify(newObject));
+    //localStorage.setItem('orders', JSON.stringify(newObject));
 
     render() {
         const breakfast = this.state.breakfast.map((breakfastBtn, i) => {
@@ -24,7 +24,7 @@ class MenuBreakfast extends Component {
             <div>
                 {breakfast}
             </div>
-        )
+        );
 
     }
 }
