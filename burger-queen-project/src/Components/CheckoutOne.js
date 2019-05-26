@@ -4,11 +4,12 @@ import MenuBreakfast from "./BreakfastMenu";
 import MenuMeal from "./MealMenu";
 import MenuDrinks from "./DrinksMenu";
 import LogOut from "./LogOut";
+//import Command from "./Command";
 //import OrderCard from "./OrderCard"
 
 
 class CheckoutOne extends Component {
-
+  
     render() {
       return (
      <div className="backgroundMenuOrder row-sm-12">
@@ -34,7 +35,7 @@ class CheckoutOne extends Component {
   <div class="card-body">
   <h5 class="card-title">Cashier 1</h5>
     <h5 class="numOrder">Orden #</h5>
-    <p class="card-text"></p>
+    <p class="card-text impresionPrueba"></p>
   </div>
   <div className="col-sm-2">
   <button type="button" className="sendKitchen" >Enviar a Cocina</button>

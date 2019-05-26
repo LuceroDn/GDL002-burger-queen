@@ -6,9 +6,9 @@ class Position extends Component {
     render() {
       return (
         <div className="backgroundPosition">
-     <Link to="/CashierOne"><button className="btnPosition">C A J A 1</button></Link>
-     <Link to="/CashierOne"><button className="btnPosition">C A J A 2</button></Link>
-     <button className="btnPosition">C O C I N A</button>
+     <Link to="/CheckoutOne"><button className="btnPosition">C A J A 1</button></Link>
+     <Link to="/CheckoutTwo"><button className="btnPosition">C A J A 2</button></Link>
+     <Link to="/Kitchen"><button className="btnPosition">C O C I N A</button></Link>
      </div>
       );
     }

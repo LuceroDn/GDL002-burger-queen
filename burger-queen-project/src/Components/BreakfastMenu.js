@@ -1,12 +1,47 @@
 import React, { Component } from "react";
-import { breakfast } from "./breakfast.json";
+import breakfast from "./breakfast.json";
+//import Command from "./Command";
 
 class MenuBreakfast extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-            breakfast
+            breakfast: breakfast.breakfast,
+            printOrder: [],
+        
         }
+    }
+
+    addItem = (event) => {
+
+        const target = event.currentTarget;
+        const keyTitle = target.getAttribute("name");
+        const keyPrice = target.getAttribute("value");
+        const container = document.getElementsByClassName("impresionPrueba")[0];
+        container.innerHTML= " ";
+           
+        console.log(keyTitle, keyPrice)
+        
+        const object = {
+            keyTitle,
+            keyPrice
+        }
+        
+        this.setState ({
+            printOrder: [...this.state.printOrder, object]
+            }, () => {
+                console.log(this.state.printOrder)
+
+              this.state.printOrder.forEach((item,i)=>{
+                    container.innerHTML+= "<li>" + item.keyTitle + " " + item.keyPrice + "</li>"
+        
+                })
+            })
+        
+            
+            
+        console.log(this.state.printOrder);
+
     }
 
     //let newObject= this.status.breakfast;
@@ -16,13 +51,14 @@ class MenuBreakfast extends Component {
     render() {
         const breakfast = this.state.breakfast.map((breakfastBtn, i) => {
             return (
-                <button className="btnBreakfast btnMenu" name={i} onClick={this.onClick} >{breakfastBtn.title}</button>
+                <button className="btnBreakfast btnMenu" key={i} name={breakfastBtn.title} value={breakfastBtn.price} onClick={this.addItem} >{breakfastBtn.title}</button>
             )
-        })
+        } )
 
         return (
             <div>
                 {breakfast}
+                
             </div>
         );
 

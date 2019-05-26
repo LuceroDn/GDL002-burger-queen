@@ -1,25 +1,24 @@
-import React from "react";
-import logoCashier from "../img/logo.png"
-import {Card, CardImg, CardText, CardBody, CardTitle, Button } from "reactstrap"
+// import React from "react";
+// import logoCashier from "../img/logo.png"
+// import {Card, CardImg, CardText, CardBody, CardTitle, Button } from "reactstrap"
 
-    const OrderCard = (props) => {
+//     const OrderCard = (props) => {
 
-        return(
-            <div>
-       <Card>
-        <CardImg top width="100%" src={logoCashier} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-  </div>
+//         return(
+//             <div>
+//         <Card class="card col-sm-6" className="orderBox">
+//   <CardImg src={logoCashier} class="card-img-top" alt="..."/>
+//   <CardBody class="card-body">
+//     <CardTitle class="card-title">Orden #</CardTitle>
+//     <CardText class="card-text"></CardText>
+//     <Button>Enviar a cocina</Button>
+//     </CardBody>
+//     </Card>
+//   </div>
 
-        );
-    };
+//         );
+//     };
   
   
 
-    export default OrderCard
+//     export default OrderCard
