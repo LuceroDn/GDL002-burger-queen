@@ -30,12 +30,12 @@ class CheckoutOne extends Component {
       </div>
 
         <div>
-        <div class="card col-sm-6" className="orderBox">
-  <img src={logoCashier} class="card-img-top" alt="..."/>
-  <div class="card-body">
-  <h5 class="card-title">Cashier 1</h5>
-    <h5 class="numOrder">Orden #</h5>
-    <p class="card-text impresionPrueba"></p>
+        <div className="card col-sm-6" className="orderBox">
+  <img src={logoCashier} className="card-img-top" alt="..."/>
+  <div className="card-body">
+  <h5 className="card-title">Cashier 1</h5>
+    <h5 className="numOrder">Orden #</h5>
+    <p className="card-text printOrd"></p>
   </div>
   <div className="col-sm-2">
   <button type="button" className="sendKitchen" >Enviar a Cocina</button>

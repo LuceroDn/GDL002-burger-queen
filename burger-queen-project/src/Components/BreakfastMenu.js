@@ -17,7 +17,7 @@ class MenuBreakfast extends Component {
         const target = event.currentTarget;
         const keyTitle = target.getAttribute("name");
         const keyPrice = target.getAttribute("value");
-        const container = document.getElementsByClassName("impresionPrueba")[0];
+        const container = document.getElementsByClassName("printOrd")[0];
         container.innerHTML= " ";
            
         console.log(keyTitle, keyPrice)
@@ -33,7 +33,7 @@ class MenuBreakfast extends Component {
                 console.log(this.state.printOrder)
 
               this.state.printOrder.forEach((item,i)=>{
-                    container.innerHTML+= "<li>" + item.keyTitle + " " + item.keyPrice + "</li>"
+                container.innerHTML+= `<li> ${item.keyTitle} ${item.keyPrice} <button className="delete"><i class="far fa-trash-alt"></button></li>`
         
                 })
             })
