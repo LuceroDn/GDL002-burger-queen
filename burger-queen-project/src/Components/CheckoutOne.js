@@ -36,6 +36,7 @@ class CheckoutOne extends Component {
   <h5 className="card-title">Cashier 1</h5>
     <h5 className="numOrder">Orden #</h5>
     <p className="card-text printOrd"></p>
+    <p className="print-total"></p>
   </div>
   <div className="col-sm-2">
   <button type="button" className="sendKitchen" >Enviar a Cocina</button>

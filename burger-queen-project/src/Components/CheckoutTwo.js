@@ -34,7 +34,8 @@ class CheckoutTwo extends Component {
   <div class="card-body">
   <h5 class="card-title">Cashier 2</h5>
     <h5 class="numOrder">Orden #</h5>
-    <p class="card-text"></p>
+    <p className="card-text printOrd"></p>
+    <p className="print-total"></p>
   </div>
   <div className="col-sm-2">
   <button type="button" className="sendKitchen" >Enviar a Cocina</button>
